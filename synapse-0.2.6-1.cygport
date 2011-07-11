@@ -4,9 +4,4 @@ DESCRIPTION="Semantic launcher for GNOME"
 HOMEPAGE="http://launchpad.net/synapse-project"
 SRC_URI="http://launchpad.net/synapse-project/${PV[1]}.${PV[2]}/${PV[1]}.${PV[2]}.${PV[3]}/+download/${P}.tar.gz"
 
-PATCH_URI="
-	0.2.2.2-no-zeitgeist.patch
-	0.2.2.2-vala_0_10.patch
-"
-
-CYGCONF_ARGS="--disable-indicator --disable-zeitgeist"
+CYGCONF_ARGS="--disable-indicator"

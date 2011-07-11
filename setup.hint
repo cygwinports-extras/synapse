@@ -1,5 +1,5 @@
 category: Gnome
-requires: libcairo2 libdbus-glib_1_2 libdbus1_3 libgdk_pixbuf2.0_0 libgee2 libglib2.0_0 libgtkhotkey1 libintl8 libjson-glib1.0_0 libpango1.0_0 libunique1.0_0
+requires: libcairo2 libdbus-glib_1_2 libdbus1_3 libgdk_pixbuf2.0_0 libgee2 libglib2.0_0 libgtkhotkey1 libintl8 libjson-glib1.0_0 libnotify4 libpango1.0_0 librest0.7_0 libunique1.0_0 libzeitgeist1.0_1
 sdesc: "GNOME semantic launcher"
 ldesc: "Synapse is a semantic launcher written in Vala that you can use 
 to start applications as well as find and access relevant documents and 
