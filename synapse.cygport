@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="synapse"
-VERSION=0.2.6
+VERSION=0.2.10
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="GNOME semantic launcher"
