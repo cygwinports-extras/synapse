@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="synapse"
+VERSION=0.2.6
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="GNOME semantic launcher"
+DESCRIPTION="Synapse is a semantic launcher written in Vala that you can use
+to start applications as well as find and access relevant documents and files
+by making use of the Zeitgeist engine."
+REQUIRES="pastebinit"
+HOMEPAGE="http://launchpad.net/synapse-project"
+SRC_URI="http://launchpad.net/synapse-project/${VERSION%.*}/${VERSION}/+download/${NAME}-${VERSION}.tar.gz"
+
+CYGCONF_ARGS="--disable-indicator"

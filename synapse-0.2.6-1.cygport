@@ -1,7 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="Semantic launcher for GNOME"
-HOMEPAGE="http://launchpad.net/synapse-project"
-SRC_URI="http://launchpad.net/synapse-project/${PV[1]}.${PV[2]}/${PV[1]}.${PV[2]}.${PV[3]}/+download/${P}.tar.gz"
-
-CYGCONF_ARGS="--disable-indicator"
